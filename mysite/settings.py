@@ -25,7 +25,7 @@ SECRET_KEY = 'jpypudne+9os-+hn5#)_&-=b)qwut@$bil_*k2k#d170xmpl!%'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['skdeepak.pythonanywhere.com']
 
 
 # Application definition
@@ -120,3 +120,6 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+MEDIA_URL = '/media/'
+STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
